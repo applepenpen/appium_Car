@@ -1,0 +1,27 @@
+DnsPage:
+   desc: 设置DNS
+   locators:
+     -
+       by: text
+       value: 设置
+       name: 设置
+     -
+       by: text
+       value: WLAN
+       name: 设置_WLAN
+     -
+       by: text
+       value: Emao-WIFI
+       name: WIFI_Name
+     -
+       by: text
+       value: 修改网络
+       name: 修改网络
+     -
+       by: id
+       value: com.android.settings:id/dns1
+       name: IP设置_DNS1
+     -
+       by: id
+       value: com.android.settings:id/btn_wifi_connect
+       name:  保存按钮

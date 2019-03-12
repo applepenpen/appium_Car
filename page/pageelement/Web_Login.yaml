@@ -1,0 +1,15 @@
+Web_Login_Page:
+   desc: 车商猫后台管理登录
+   locators:
+     -
+       by: id
+       value: phone_psd
+       name: 输入手机号框
+     -
+       by: id
+       value: psd
+       name: 输入密码
+     -
+       by: text
+       value: 登录
+       name: 登录按钮
